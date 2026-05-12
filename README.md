@@ -1,2 +1,10 @@
 # DIY-Regulator
-DIY 5V power regulator for the Game Boy Color, Pocket (or Pocket Color). Designed to be cheap and easy to solder - perfect for beginners!
+---------------------------
+| Designator | Part             | Footprint | Link |
+| ---------- | -----------      | ----      | ---  |
+| C1         | 10nF             | 0603      |      |
+| C2, C3, C4 | 10Uf             | 0805      |      |
+| R1         | 100R             | 0603      |      |
+| L1         | 2.2uH            | 1008      |      |   
+| D1         | SS54             | SMA       |      |
+| U1         | TPS613222A       |           |      |
