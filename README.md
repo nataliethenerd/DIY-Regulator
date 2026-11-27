@@ -32,7 +32,7 @@ When you open a datasheet, page one usually has a summery of the part and what i
 
 *perfect! 1-3 NiMh (Ladda, Enloop) or Alkaline (standard AAs)*
 
-Another part of a datasheet you should look at when choosing a part, are the graphs that show how the device performs in under specific conditions. For a Game Boy Color, the original device takes 2xAA batteries in a series. When batteries are in a series, their voltages are added together. 1xAA is 1.5V, so two (that the GBC takes) is 3V. 
+Another part of a datasheet you should look at when choosing a part, are the graphs that show how the device performs in under specific conditions. For a Game Boy Color, the original device takes 2xAA batteries in a series. When batteries are in a series, their voltages are added together. 1xAA is 1.5V, so two (that the GBC takes) is 3V. A LiPo operates between 3.3V and 4.2V so it would also perform well with one (this board does not charge it however).
 
 ![graph](assets/graph.png)
 
