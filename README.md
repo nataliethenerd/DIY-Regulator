@@ -5,7 +5,7 @@ I have always wanted to make a solder practice board that is actually useful and
 The DIY regulator is a Game Boy Pocket, Color or Pocket Color regulator that provides 5V - meaning it does not work with the OEM screens.
 
 # Parts
----------------------------
+
 | Designator | Part             | Footprint | Link |
 | ---------- | -----------      | ----      | ---  |
 | C1         | 10nF             | 0603      | [Mouser](https://au.mouser.com/ProductDetail/Murata-Electronics/GRM1857U1A103JA44D?qs=MY6wChARw2zuf1nfg9IsQA%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/murata-electronics/GRM1857U1A103JA44D/2610988?s=N4IgTCBcDaIOICUCyBGAHAVgOwFUUEEUAGAZgCl8AWSgERAF0BfIA) [LCSC](https://www.lcsc.com/product-detail/C2170650.html)     |
@@ -44,7 +44,6 @@ Staying within the guidelines of the datasheet is best because the results in th
 
 ![graph](assets/parttable.png)
 
-
 ## Tests
 
 I tested the DIY Regulator on a Game Boy Color and Game Boy Pocket. 
@@ -64,6 +63,4 @@ The tests were completed using Pokemon Red on the Pocket and Pokemon Crystal on 
 
 At lower input voltages, there was a much better result using the DIY Regulator - especially on the Pocket. The Pocket is notorious for having a poor regulator. That along with the lower capacity AAA batteries, it often has issues booting a flash cart.
 
-## TODO:
-
-- Audio tests
+The audio is slightly louder using the DIY Regulator. 
