@@ -1,6 +1,8 @@
-# DIY-Regulator
+# DIY Regulator
 
-![datasheet](assets/IMG_5203cropped.jpg)
+[![Patreon](https://img.shields.io/badge/Patreon-Support-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/nataliethenerd)
+[![Open Source Hardware](https://img.shields.io/badge/Open%20Source%20Hardware-0099B0?logo=opensourcehardware&logoColor=white)](https://www.oshwa.org/definition/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 I have always wanted to make a solder practice board that is actually useful and here it is!
 
@@ -67,3 +69,23 @@ The tests were completed using Pokemon Red on the Pocket and Pokemon Crystal on 
 At lower input voltages, there was a much better result using the DIY Regulator - especially on the Pocket. The Pocket is notorious for having a poor regulator. That along with the lower capacity AAA batteries, it often has issues booting a flash cart.
 
 The audio is slightly louder using the DIY Regulator. 
+
+## Thanks
+
+To anyone who has supported me on Patreon - this allows me to make projects like this for everyone
+
+## License
+
+Please do not remove my logo, website and name.
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+The CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike 4.0 International) license allows you to:
+
+1. **Share** - Copy and redistribute the material in any medium or format.
+2. **Adapt** - Remix, transform, and build upon the material for any purpose, even commercially.
+
+### Conditions:
+
+- **Attribution** - You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
