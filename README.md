@@ -1,6 +1,6 @@
 # DIY-Regulator
 
-![datasheet](assets/IMG_5203.jpg)
+![datasheet](assets/IMG_5203cropped.jpg)
 
 I have always wanted to make a solder practice board that is actually useful and here it is!
 
