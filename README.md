@@ -4,7 +4,7 @@ I have always wanted to make a solder practice board that is actually useful and
 
 The DIY regulator is a Game Boy Pocket, Color or Pocket Color regulator that provides 5V - meaning it does not work with the OEM screens.
 
-## Parts
+# Parts
 ---------------------------
 | Designator | Part             | Footprint | Link |
 | ---------- | -----------      | ----      | ---  |
@@ -14,12 +14,13 @@ The DIY regulator is a Game Boy Pocket, Color or Pocket Color regulator that pro
 | L1         | 2.2uH            | 1008      | [Mouser](https://au.mouser.com/ProductDetail/Murata-Electronics/DFE252012F-2R2M%3dP2?qs=ty6qhqyUUEuYhdA0a9%2F0aw%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012F-2R2M-P2/5812591?s=N4IgTCBcDaICIDECiYCsYAMBGMCC0YASmALIgC6AvkA) [LCSC](https://www.lcsc.com/product-detail/C576403.html)     |   
 | U1         | TPS613222A       | SOT-23    | [Mouser](mouser.com/ProductDetail/Texas-Instruments/TPS613222ADBVR) [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/TPS613222ADBVR/8638376) [LCSC](https://www.lcsc.com/product-detail/C2071163.html)     |
 
-### Explanation
+# Reading a datasheet
 
 I want part of this project to be a little educational and explain how to read a datasheet and a rough explanation of things.
 
 *DISCLAIMER: I am self taught, so I don't know the physics behind electricity and this might blow up your house (doubt, but it might)*
 
+### Picking the Boost Converter
 
 **TPS613222A** [Data Sheet](https://www.ti.com/lit/ds/symlink/tps61322.pdf)
 
@@ -33,20 +34,36 @@ When you open a datasheet, page one usually has a summery of the part and what i
 
 Another part of a datasheet you should look at when choosing a part, are the graphs that show how the device performs in under specific conditions. For a Game Boy Color, the original device takes 2xAA batteries in a series. When batteries are in a series, their voltages are added together. 1xAA is 1.5V, so two (that the GBC takes) is 3V. 
 
-
 ![graph](assets/graph.png)
-
-*highlighted to make it easier to read*
 
 The Game Boy Color will run between 0.1A and 0.3A which is the sweet spot of this part!
 
-### Tests
+### Picking the parts
+
+Staying within the guidelines of the datasheet is best because the results in the datasheet were recorded using these parts. As we do not need over 500mA, we will be following 8.2.1 Boost without Schottky Diode.
+
+![graph](assets/parttable.png)
+
+
+## Tests
 
 I tested the DIY Regulator on a Game Boy Color and Game Boy Pocket. 
-The tests were completed using Pokemon Red on the Pocket and Pokemon Crystal on the Color. A set of values were collected using the retail carts and a generic flash cart (the kind with a micro sd) Full volume, Q5 HiSpeedido screens and 50% brightness. The results recorded were the mean of values on the title screen.
+The tests were completed using Pokemon Red on the Pocket and Pokemon Crystal on the Color. A set of values were collected using the retail carts and a generic flash cart (the kind with a micro sd) Full volume, Q5 HiSpeedido screens and 50% brightness. The results recorded were the mean of values on the title screen using a stock regulator and the DIY Regulator.
 
-#### Game Boy Color
+### Game Boy Color
 
 ![gbcresults](assets/cgbpowerdrawgraph.png)
 
+### Game Boy Pocket
+
 ![gbcresults](assets/mgbpowerdrawgraph.png)
+
+*note: the cut off on the stock flash value was because the Game Boy Pocket would not boot*
+
+### Result findings
+
+At lower input voltages, there was a much better result using the DIY Regulator - especially on the Pocket. The Pocket is notorious for having a poor regulator. That along with the lower capacity AAA batteries, it often has issues booting a flash cart.
+
+## TODO:
+
+- Audio tests
