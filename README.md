@@ -1,17 +1,20 @@
 # DIY-Regulator
 
+![datasheet](assets/IMG_5203.jpg)
+
 I have always wanted to make a solder practice board that is actually useful and here it is!
 
 The DIY regulator is a Game Boy Pocket, Color or Pocket Color regulator that provides 5V - meaning it does not work with the OEM screens.
+
+All footprints are the "hand soldered" variants, which makes pads bigger and easier to solder to with a regular hand iron.
 
 # Parts
 
 | Designator | Part             | Footprint | Link |
 | ---------- | -----------      | ----      | ---  |
-| C1         | 10nF             | 0603      | [Mouser](https://au.mouser.com/ProductDetail/Murata-Electronics/GRM1857U1A103JA44D?qs=MY6wChARw2zuf1nfg9IsQA%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/murata-electronics/GRM1857U1A103JA44D/2610988?s=N4IgTCBcDaIOICUCyBGAHAVgOwFUUEEUAGAZgCl8AWSgERAF0BfIA) [LCSC](https://www.lcsc.com/product-detail/C2170650.html)     |
 | C2, C3, C4 | 10uF             | 0805      | [Mouser](https://au.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A106KPFNNNG?qs=hqM3L16%252BxldOAmVBBJhBjg%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21A106KPFNNNG/3894419) [LCSC](https://www.lcsc.com/product-detail/C17024.html)     |
 | R1         | 100R             | 0603      | [Mouser](https://au.mouser.com/ProductDetail/YAGEO/RC0603FR-07100RL?qs=NEN%2FsE%2FLsvPIwIWKCOS4%2FA%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100RL/726888) [LCSC](https://www.lcsc.com/product-detail/C105588.html)     |
-| L1         | 2.2uH            | 1008      | [Mouser](https://au.mouser.com/ProductDetail/Murata-Electronics/DFE252012F-2R2M%3dP2?qs=ty6qhqyUUEuYhdA0a9%2F0aw%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012F-2R2M-P2/5812591?s=N4IgTCBcDaICIDECiYCsYAMBGMCC0YASmALIgC6AvkA) [LCSC](https://www.lcsc.com/product-detail/C576403.html)     |   
+| L1         | 2.2uH            | 1008      | [Mouser](https://au.mouser.com/ProductDetail/Murata-Electronics/DFE252012F-2R2M%3dP2?qs=ty6qhqyUUEuYhdA0a9%2F0aw%3D%3D) [Digikey](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012F-2R2M-P2/5812591?s=N4IgTCBcDaICIDECiYCsYAMBGMCC0YASmALIgC6AvkA) [LCSC](https://www.lcsc.com/product-detail/C576403.html)     
 | U1         | TPS613222A       | SOT-23    | [Mouser](mouser.com/ProductDetail/Texas-Instruments/TPS613222ADBVR) [Digikey](https://www.digikey.com/en/products/detail/texas-instruments/TPS613222ADBVR/8638376) [LCSC](https://www.lcsc.com/product-detail/C2071163.html)     |
 
 # Reading a datasheet
