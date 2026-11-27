@@ -1,5 +1,7 @@
 # DIY Regulator
 
+![datasheet](assets/IMG_5203cropped.jpg)
+
 [![Patreon](https://img.shields.io/badge/Patreon-Support-F96854?logo=patreon&logoColor=white)](https://www.patreon.com/nataliethenerd)
 [![Open Source Hardware](https://img.shields.io/badge/Open%20Source%20Hardware-0099B0?logo=opensourcehardware&logoColor=white)](https://www.oshwa.org/definition/)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
